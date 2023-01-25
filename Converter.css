@@ -1,0 +1,79 @@
+html{
+    background-image: url(https://www.elegantthemes.com/blog/wp-content/uploads/2013/09/bg-2-full.jpg);
+    background-repeat: none;
+}
+body{
+    display: flex;
+    justify-content: center;
+    height:800px;
+    width:1500px;
+}
+.container, .container2{
+    margin-top: 10em;
+    width: 24em;
+    height: 15em;
+    background-color: aliceblue;
+    opacity: 0.5;
+    border-radius: 40px;
+}
+input{
+    width: 5em;
+    height: 30px;
+    border: none;
+    font-size: 20px;
+    color: blue;
+    border-bottom: 3px solid black;
+    opacity: 0.5;
+    background-color: aquamarine;
+}
+select{
+    width: 6em;
+    height: 37px;
+    font-size: 19px;
+}
+.valun{
+    display: flex;
+}
+.unit, .val{
+    margin-left: 50px;
+}
+.button{
+    display: grid;
+    justify-content: center;
+}
+button:hover{
+    cursor: pointer;
+    transform: scale(0.98);
+}
+.convert{
+    margin-top: 2em;
+    font-size: 25px;
+    width: 11em;
+    border-radius: 20px;
+    background-color: aquamarine;
+}
+.container2{
+    display: none;
+    position: absolute;
+    margin-top: 25em;
+    height: 8em;
+}
+.result{
+    margin: 43px 25px 0em 25px;
+    background: 20px aquamarine;
+    text-align: center;
+    font-size: 2em;
+}
+@media screen and (max-width:1000px){
+    body{
+        justify-content: left;
+    }
+    .container{
+        float: left;
+        margin-left: 10em;
+    }
+    .container2{
+        float: left;
+        margin-left: 10em;
+    }
+}
